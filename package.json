@@ -12,8 +12,6 @@
     "url": "https://github.com/kadza93/gulp-frontend.git"
   },
   "scripts": {
-    "init": "npm install",
-    "install": "bower install",
     "start": "node ./app/server/app.js"
   },
   "dependencies": {

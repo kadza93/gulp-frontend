@@ -1,0 +1,48 @@
+{
+  "name": "Front-End-Gulp",
+  "version": "0.1.0",
+  "description": "Gulp.js Front-End build automation.",
+  "authors": [
+    "Uros Karic"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kadza93/Front-End-Gulp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kadza93/gulp-frontend.git"
+  },
+  "scripts": {
+    "init": "npm install",
+    "install": "bower install",
+    "start": "node ./app/server/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.8.2",
+    "compression": "^1.1.0",
+    "cors": "^2.2.0",
+    "express": "^4.9.3",
+    "morgan": "^1.1.1",
+    "serve-favicon": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-typescript": "^2.12.1",
+    "gulp-util": "^3.0.7",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5",
+    "yargs": "^4.2.0"
+  }
+}
